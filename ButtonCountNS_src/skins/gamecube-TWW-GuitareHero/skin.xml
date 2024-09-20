@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<skin name="TWW-guittareHero" author="Aliensqueakytoy" type="gamecube">
+
+	<background name="Basic" image="Background.png" />
+
+	<button name="a" image="A.png" x="247" y="923" width="43" height="43" flyingImage="FlyingA.png" flyingX="242" flyingY="118" flyingWidth="28" flyingHeight="43" />
+	<button name="b" image="b-button.png" x="214" y="947" width="25" height="25" flyingImage="FlyingB.png" flyingX="186" flyingY="194" flyingWidth="28" flyingHeight="43" />
+	<button name="x" image="X.png" x="299" y="916" width="27" height="47" flyingImage="FlyingX.png" flyingX="298" flyingY="194" flyingWidth="28" flyingHeight="43" />
+	<button name="y" image="Y.png" x="237" y="890" width="50" height="27" flyingImage="FlyingY.png" flyingX="214" flyingY="162" flyingWidth="28" flyingHeight="43" />
+	<button name="z" image="Z.png" x="280" y="875" width="41" height="20" flyingImage="FlyingZ.png" flyingX="270" flyingY="194" flyingWidth="28" flyingHeight="43" />
+	<button name="start" image="Start.png" x="191" y="880" width="20" height="20" flyingImage="FlyingStart.png" flyingX="158" flyingY="194" flyingWidth="28" flyingHeight="43" />
+
+	<button name="r" image="R.png" x="84" y="882" width="70" height="12" flyingImage="FlyingR.png" flyingX="54" flyingY="194" flyingWidth="48" flyingHeight="43" />
+	<analog name="trig_r" image="R.png" x="73" y="882" width="80" height="12" flyingImage="FlyingR.png" flyingX="45" flyingY="194" flyingWidth="57" flyingHeight="43"
+            direction="left" reverse="false" />
+
+	<button name="l" image="R.png" x="5" y="882" width="70" height="12" flyingImage="FlyingR.png" flyingX="2" flyingY="194" flyingWidth="48" flyingHeight="43" />
+	<analog name="trig_l" image="R.png" x="5" y="882" width="80" height="12" flyingImage="FlyingR.png" flyingX="2" flyingY="194" flyingWidth="57" flyingHeight="43"
+            direction="right" reverse="false" />
+
+	<button name="up" image="D-down-up.png" x="175" y="920" width="14" height="17" flyingImage="FlyingDup.png" flyingX="118" flyingY="194" flyingWidth="12" flyingHeight="12" />
+	<button name="down" image="D-down-up.png" x="175" y="950" width="14" height="17" flyingImage="FlyingDdown.png" flyingX="130" flyingY="194" flyingWidth="12" flyingHeight="12" />
+	<button name="left" image="D-left-right.png" x="160" y="936" width="17" height="14" flyingImage="FlyingDleft.png" flyingX="106" flyingY="194" flyingWidth="12" flyingHeight="12" />
+	<button name="right" image="D-left-right.png" x="187" y="936" width="17" height="14" flyingImage="FlyingDright.png" flyingX="142" flyingY="194" flyingWidth="12" flyingHeight="12" />
+
+	<stick xname="lstick_x" yname="lstick_y" image="Stick.png"
+           x="19" y="914" width="45" height="45" xrange="20" yrange="20"/>
+
+	<stick xname="cstick_x" yname="cstick_y" image="cstick.png"
+           x="105" y="921" width="30" height="30" xrange="17" yrange="17"/>
+
+</skin>
